@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* website_event_filter_organizer
+#	* event_session_registration_multi_qty
 #
 msgid ""
 msgstr ""
@@ -13,9 +13,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: website_event_filter_organizer
-#: code:addons/website_event_filter_organizer/controllers/main.py:29
-#, python-format
-msgid "All Organizers"
+#. module: event_session_registration_multi_qty
+#: model:ir.model,name:event_session_registration_multi_qty.model_event_session
+msgid "Event session"
 msgstr ""
 
