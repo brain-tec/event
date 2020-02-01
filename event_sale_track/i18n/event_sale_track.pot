@@ -1,0 +1,69 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* event_sale_track
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: event_sale_track
+#: model:ir.model,name:event_sale_track.model_event_registration
+msgid "Attendee"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model.fields,field_description:event_sale_track.field_event_track_seats_available
+msgid "Available Seats"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model,name:event_sale_track.model_event_event_ticket
+msgid "Event Ticket"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model,name:event_sale_track.model_event_track
+msgid "Event Track"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model.fields,field_description:event_sale_track.field_event_track_seats_max
+msgid "Maximum Available Seats"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model.fields,field_description:event_sale_track.field_event_track_seats_reserved
+msgid "Reserved Seats"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model.fields,field_description:event_sale_track.field_event_track_seats_used
+msgid "Seats Used"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model.fields,field_description:event_sale_track.field_event_registration_ticket_ids
+#: model:ir.model.fields,field_description:event_sale_track.field_event_track_ticket_ids
+#: model:ir.ui.view,arch_db:event_sale_track.view_event_registration_form_event_sale_track
+#: model:ir.ui.view,arch_db:event_sale_track.view_event_track_form
+msgid "Tickets"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model.fields,field_description:event_sale_track.field_event_event_ticket_track_id
+#: model:ir.model.fields,field_description:event_sale_track.field_event_registration_track_ids
+msgid "Track"
+msgstr ""
+
+#. module: event_sale_track
+#: model:ir.model.fields,field_description:event_sale_track.field_event_track_seats_unconfirmed
+msgid "Unconfirmed Seat Reservations"
+msgstr ""
+
