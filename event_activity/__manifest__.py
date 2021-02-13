@@ -3,11 +3,11 @@
 {
     "name": "Event activities",
     "summary": "Allow activity management on events and registrations",
-    "version": "12.0.1.0.0",
+    "version": "12.0.1.0.1",
     "development_status": "Production/Stable",
     "category": "Marketing",
     "website": "https://github.com/OCA/event",
-    "author": "Tecnativa - Jairo Llopis, Odoo Community Association (OCA)",
+    "author": "Tecnativa, Odoo Community Association (OCA)",
     "maintainers": ["Yajo"],
     "license": "LGPL-3",
     "application": False,
