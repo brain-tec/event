@@ -152,7 +152,7 @@ class EventSession(common.SavepointCase):
         self.assertEqual(len(self.session.event_mail_ids), 1)
 
     def test_session_seats(self):
-        """ Session seat """
+        """Session seat"""
         self.assertEqual(self.event.seats_available, self.session.seats_available)
         self.assertEqual(self.event.seats_unconfirmed, self.session.seats_unconfirmed)
         self.assertEqual(self.event.seats_used, self.session.seats_used)
@@ -465,11 +465,11 @@ class EventSession(common.SavepointCase):
         session._compute_seats()
         self.assertEqual(session.seats_unconfirmed, 2)
         self.assertEqual(session.seats_reserved, 0)
-        atendee_1.confirm_registration()
+        atendee_1.action_confirm()
         session._compute_seats()
         self.assertEqual(session.seats_unconfirmed, 1)
         self.assertEqual(session.seats_reserved, 1)
-        atendee_2.confirm_registration()
+        atendee_2.action_confirm()
         session._compute_seats()
         self.assertEqual(session.seats_unconfirmed, 0)
         self.assertEqual(session.seats_reserved, 2)
