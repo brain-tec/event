@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* event_registration_mail_compose
+# 	* website_event_sale_b2x_alt_price
 #
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17\n"
 
-#. module: event_registration_mail_compose
-#: model:ir.actions.act_window,name:event_registration_mail_compose.action_event_registration_mass_mail
-msgid "Send email"
-msgstr "Invia e-mail"
+#. module: website_event_sale_b2x_alt_price
+#: model:ir.model,name:website_event_sale_b2x_alt_price.model_event_event_ticket
+msgid "Event Ticket"
+msgstr "Biglietto evento"
