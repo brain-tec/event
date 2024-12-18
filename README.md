@@ -28,7 +28,7 @@ addon | version | maintainers | summary
 [event_registration_partner_unique](event_registration_partner_unique/) | 17.0.1.0.0 |  | Enforces 1 registration per partner and event
 [event_stage_cancelled](event_stage_cancelled/) | 17.0.1.0.0 |  | Event cancellation workflows
 [partner_event](partner_event/) | 17.0.1.0.0 |  | Link partner to events
-[website_event_filter_city](website_event_filter_city/) | 17.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Add a customizable top area to filter events with city
+[website_event_filter_city](website_event_filter_city/) | 17.0.1.1.0 | [![pilarvargas-tecnativa](https://github.com/pilarvargas-tecnativa.png?size=30px)](https://github.com/pilarvargas-tecnativa) | Add a customizable top area to filter events with city
 [website_event_membership_restriction](website_event_membership_restriction/) | 17.0.1.0.0 |  | Restrict event registration to members only
 [website_event_questions_by_ticket](website_event_questions_by_ticket/) | 17.0.1.0.0 |  | Events Questions conditional to the chosen ticket
 [website_event_require_login](website_event_require_login/) | 17.0.1.0.0 |  | Website Event Require Login
