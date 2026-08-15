@@ -1,18 +1,23 @@
 [project]
 name = "odoo-addons-oca-event"
-version = "19.0.20260813.0"
+version = "19.0.20260814.4"
 dependencies = [
+    "odoo-addon-crm_event==19.0.*",
+    "odoo-addon-event_email_reminder==19.0.*",
     "odoo-addon-event_min_seat==19.0.*",
     "odoo-addon-event_registration_cancel_reason==19.0.*",
     "odoo-addon-event_registration_partner_unique==19.0.*",
     "odoo-addon-event_sale_free_no_invoiceable==19.0.*",
     "odoo-addon-event_sale_reservation==19.0.*",
+    "odoo-addon-event_stage_cancelled==19.0.*",
     "odoo-addon-event_track_location_overlap==19.0.*",
     "odoo-addon-partner_event==19.0.*",
+    "odoo-addon-website_event_filter_city==19.0.*",
     "odoo-addon-website_event_membership_restriction==19.0.*",
     "odoo-addon-website_event_questions_by_ticket==19.0.*",
     "odoo-addon-website_event_require_legal==19.0.*",
     "odoo-addon-website_event_sale_b2x_alt_price==19.0.*",
+    "odoo-addon-website_event_track_stage_cancelled==19.0.*",
 ]
 classifiers=[
     "Programming Language :: Python",
